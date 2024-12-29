@@ -1,6 +1,9 @@
 {
-  "private": true,
-  "dependencies": {
-    "@vercel/edge": "^0.1.2"
-  }
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://designmixstudio.in/",
+      "permanent": true
+    }
+  ]
 }
